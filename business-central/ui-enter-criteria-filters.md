@@ -1,15 +1,15 @@
 ---
 title: Sorting, Searching, and Filtering Lists | Microsoft Docs
 description: Work efficiently in lists by searching across your data, sorting columns, and refining results using powerful filter symbols and keyboard shortcuts.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
+ms.date: 06/13/2019
+ms.author: sgroespe
 
 ---
 # Sorting, Searching, and Filtering Lists
@@ -36,8 +36,8 @@ At the top of each list page, there is a ![Search list](media/ui-search/search-l
 
 To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
 
-### Fine-tune the Search
-In general, search will attempt to match text across all fields; it does not distinguish between uppercase and lowercase characters (in other words, case insensitive), and will match text placed anwhere in the field (at the beginning, end, or in the middle).
+### Fine-tuning the Search
+In general, search will attempt to match text across all fields; it does not distinguish between uppercase and lowercase characters (in other words, case insensitive), and will match text placed anywhere in the field (at the beginning, end, or in the middle).
 
 However, you can make a more exact search by using the following special characters:
 
@@ -123,10 +123,15 @@ For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilt
 
 
 ## <a name="FilterCriteria"> </a>Filter Criteria and Symbols
-When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
+When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
->  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.  
+>  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
+
+The following sections describe how to use the different operators.
+
+> [!NOTE]
+> If there are more than 200 operators in a single filter, the system will automatically group some expressions in parentheses `()` for the purpose of processing. This has no effect on the filter or the results.  
 
 ### (..) Interval
 
@@ -140,7 +145,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
 
-### (&#124;) Either/or  
+### (&#124;) Either/or 
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  

@@ -1,36 +1,38 @@
-# Обзор финансовых отчетов							 
+---
+title: Account schedules overview in Russia
+description: Russian enhancements include account schedules overview.
+author: DianaMalina
 
-Финансовые отчеты — один из основных инструментов, которые можно использовать для предоставления информации по требуемым регламентом отчетам. Применение определяемых пользователем строк и столбцов позволяет точно решать, какие данные требуется сравнивать и как. Это означает, что можно создавать неограниченное количество специальных финансовых отчетов без использования «Дизайнера отчетов». Кроме этого, для любого финансового отчета можно использовать предопределенную раскладку столбцов.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+ms.author: soalex
+---
 
-Чтобы лучше управлять информацией отчета, можно:
+# Account Schedules Overview
 
-- создавать корреспонденцию с ГК;
-- создавать константы;
-- создавать расширения;
-- создавать выражения.
+Account schedules are one of the main tools that you can use to provide information for required statutory reports. By using user-defined rows and columns, you can decide which data you want to compare and how. This means that you can create as many customized financial statements as you want without using Report Designer. You can also choose to use a predefined column layout for any account schedule.
 
-Финансовые отчеты настраиваются в окне **Финансовые отчеты**.
+To better manage the report data, you can:
 
+- Create general ledger correspondence.
+- Create constants.
+- Create extensions.
+- Create expressions.
 
+Account schedules are set up in the **Account Schedules** window.
 
+> [!NOTE]
+> Make sure to print the following reports to review the general ledger account information that you will be using in account schedules:
 >
-> :speech_balloon: **Примечание**
->
-> Не забудьте напечатать следующие отчеты для просмотра сведений о счетах ГК, которые вы будете использовать для финансовых отчетов:
->
-> - Отчет **Оборотная ведомость по ГК**
-> - Отчет **Карточка счета ГК**
-> - Отчет **Анализ операций счета ГК**
->
+> **G/L Account Turnover** report
+> **G/L Account Card** report
+> **G/L Account Entries Analysis** report
 
- 
-
-## См. также
-
-[Практическое руководство. Импорт и экспорт финансовых отчетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-import-and-export-account-schedules.md)
-
-[Практическое руководство. Определение расширения финансового отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-extension.md)
-
-[Практическое руководство. Определение константы финансового отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-constant.md)
-
-[Подготовка финансовой отчетности с помощью финансовых отчетов и категорий счетов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/bi-how-work-account-schedule)
+## See Also
+[How to: Import and Export Account Schedules](How-to-Import-and-Export-Account-Schedules.md)  
+[How to: Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  
+[How to: Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md)  
+[How to: Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  

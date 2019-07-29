@@ -1,27 +1,31 @@
-# Практическое руководство. Определение константы финансового отчета							 
+---
+title: Defining account schedule constants in Russia
+description: Russian enhancements include account schedule constants.
+author: DianaMalina
 
-Business Central  позволяет определить константу для строки финансового отчета. Константы полезны, если значение финансового отчета не меняется.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+ms.author: soalex
+---
 
- 
+# How to: Define an Account Schedule Constant
 
-## Определение константы финансового отчета
+[!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
 
- 
+## To define an account schedule constant
 
-
-1. Перейдите в **Финансовые отчеты**.
-2. Выберите финансовый отчет, для которого необходимо определить расширение.
-3. Выберите **Обработать** и **Изменение финансового отчета**.
-4. В открывшемся окне  выберите строку финансового отчета, для которой необходимо определить расширение.
-5. В поле **Тип группировки** выберите **Константа**, затем введите постоянную величину в поле **Группировка**.
-
- 
-
-## См. также
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule**, and then choose the related link.
+2. Select the account schedule for which you want to define a constant.
+3. Select **Edit account schedule**.
+4. In the **Row No.** field, select the number of the account schedule row for which you want to define a constant.
+5. In the **Totaling Type** field, select **Constant**, and then enter a constant value in the **Totaling** field.
 
 
-[Практическое руководство. Работа с финансовыми отчетами](https://docs.microsoft.com/ru-ru/dynamics365/business-central/bi-how-work-account-schedule)
+## See Also
 
-[Обзор финансовых отчетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/account-schedules-overview.md)
-
-[Практическое руководство. Определение расширения финансового отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-extension.md)
+[How to: Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+[Account Schedules Overview](account-schedules-overview.md)  
+[How to: Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  

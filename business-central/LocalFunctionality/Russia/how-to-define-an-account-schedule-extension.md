@@ -1,29 +1,32 @@
-# Практическое руководство. Определение расширения финансового отчета						 
+---
+title: Defining account schedule extensions in Russia
+description: Russian enhancements include extending account schedule lines.
+author: DianaMalina
 
-Business Central позволяет определить расширение для строки финансового отчета. Расширения удобны, если требуется фильтрация данных для счетов главной книги.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+ms.author: soalex
+---
 
- 
+# How to: Define an Account Schedule Extension
 
-## Определение расширения финансового отчета
+[!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.
 
- 
+## To define an account schedule extension
 
-1. Перейдите в **Финансовые отчеты**.
-2. Выберите финансовый отчет, для которого необходимо определить расширение.
-3. Выберите **Обработать** и **Изменение финансового отчета**.
-4. В открывшемся окне  выберите строку финансового отчета, для которой необходимо определить расширение.
-5. В поле **Тип группировки**, выберите **Пользовательский**, затем выберите таблицу, которая должна использоваться, из поля **Исходная таблица расширения**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule**, and then choose the related link.
+2. Select the account schedule for which you want to define an extension.
+3. Select **Edit account schedule**.
+4. In the **Row No.** field, select the number of the account schedule row for which you want to define an extension.
+5. In the **Totaling Type** field, select **Custom**, and then select the table that you want to use from the **Extension Source Table** field.
 
- 
+Based on your selections, the account schedule information is filtered from the entry tables, and then new amounts are calculated for the specified account schedule line.
 
-На основе вашего выбора сведения финансового отчета фильтруются из таблиц операций, а затем новые суммы рассчитываются для указанной строки финансового отчета.
+## See Also
 
- 
-
-## См. также
-
-[Подготовка финансовой отчетности с помощью финансовых отчетов и категорий счетов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/bi-how-work-account-schedule)
-
-[Обзор финансовых отчетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/account-schedules-overview.md)
-
-[Практическое руководство. Определение константы финансового отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-constant.md)
+[How to: Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+[Account Schedules Overview](account-schedules-overview.md)  
+[How to: Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md)  

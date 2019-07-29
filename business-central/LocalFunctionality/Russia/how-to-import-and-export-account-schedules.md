@@ -1,27 +1,28 @@
-# Практическое руководство. Импорт и экспорт финансовых отчетов 							 
+---
+title: Importing and exporting account schedules in Russia
+description: Russian enhancements include importing and exporting account schedules.
+author: DianaMalina
 
-Business Central позволяет импортировать и экспортировать финансовые отчеты в базы данных других организаций.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+ms.author: soalex
+---
 
- 
+# How to: Import and Export Account Schedules
 
-## Импорт и экспорт финансовых отчетов
+You can import and export account schedules into other companies and databases.
 
- 
+## To import and export account schedules
 
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter ** **Account Schedules**, and then choose the related link.
+2. Choose the **Import Settings** or the **Export Settings** action. An extensible markup language (XML) file will be created for the import or export.
 
-1. Перейдите в **Финансовые отчеты**.
+> [!NOTE]
+> When you import account schedules, all existing records with primary key values that are equal to imported values will be deleted.
 
-2. Выберите действие **Импорт настроек** или **Экспорт настроек**. Будет создан файл XML для импорта или экспорта.
+## See Also
 
-   
-
->  :speech_balloon: **Примечание**
->
-> При импорте финансовых отчетов все существующие записи со значениями первичного ключа, равного импортированным значениям, будут удалены.
-
- 
-
-## См. также
-
-[Подготовка финансовой отчетности с помощью финансовых отчетов и категорий счетов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/bi-how-work-account-schedule)
-
+[How to: Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
